@@ -1,0 +1,19 @@
+# Dataset root directory
+path: /content/dataset
+
+# Train, Validation and Test images
+train: train/images
+val: val/images
+test: test/images   # optional
+
+# Number of classes
+nc: 6
+
+# Class names (must match label IDs exactly)
+names:
+  0: plastic
+  1: metal
+  2: glass
+  3: paper
+  4: cardboard
+  5: trash

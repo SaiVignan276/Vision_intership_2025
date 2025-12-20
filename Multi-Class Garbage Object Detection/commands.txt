@@ -1,0 +1,8 @@
+yolo detect train \
+data=/content/dataset/data.yaml \
+model=yolov8n.pt \
+epochs=30 \
+imgsz=416 \
+batch=16
+
+yolo detect val model=runs/detect/train/weights/best.pt data=q2.yaml split=test
